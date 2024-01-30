@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0486A9212B68925D00C2C935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9042B68925D00C2C935 /* ContentView.swift */; };
+		0486A9222B68925D00C2C935 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9062B68925D00C2C935 /* Employee.swift */; };
+		0486A9242B68925D00C2C935 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A90B2B68925D00C2C935 /* CGFloat.swift */; };
+		0486A9252B68925D00C2C935 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A90C2B68925D00C2C935 /* Font.swift */; };
+		0486A9262B68925D00C2C935 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A90F2B68925D00C2C935 /* SplashViewModel.swift */; };
+		0486A9272B68925D00C2C935 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9102B68925D00C2C935 /* SplashView.swift */; };
+		0486A9282B68925D00C2C935 /* ContackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9122B68925D00C2C935 /* ContackView.swift */; };
+		0486A9292B68925D00C2C935 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9142B68925D00C2C935 /* BoardView.swift */; };
+		0486A92A2B68925D00C2C935 /* PrayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9162B68925D00C2C935 /* PrayerView.swift */; };
+		0486A92B2B68925D00C2C935 /* WorshipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9182B68925D00C2C935 /* WorshipView.swift */; };
+		0486A92C2B68925D00C2C935 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A91A2B68925D00C2C935 /* MainTabView.swift */; };
+		0486A92D2B68925D00C2C935 /* OfferingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A91C2B68925D00C2C935 /* OfferingView.swift */; };
+		0486A92E2B68925D00C2C935 /* BulletinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A91E2B68925D00C2C935 /* BulletinView.swift */; };
+		0486A92F2B68925D00C2C935 /* ECCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A91F2B68925D00C2C935 /* ECCApp.swift */; };
+		0486A9302B68925D00C2C935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0486A9202B68925D00C2C935 /* Assets.xcassets */; };
 		04CAE1562B4A3BA40065A257 /* ECCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAE1552B4A3BA40065A257 /* ECCApp.swift */; };
 		04CAE1582B4A3BA40065A257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAE1572B4A3BA40065A257 /* ContentView.swift */; };
 		04CAE15A2B4A3BA40065A257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CAE1592B4A3BA40065A257 /* Assets.xcassets */; };
@@ -14,6 +29,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0486A9042B68925D00C2C935 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ECC/ContentView.swift; sourceTree = SOURCE_ROOT; };
+		0486A9062B68925D00C2C935 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		0486A90B2B68925D00C2C935 /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		0486A90C2B68925D00C2C935 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		0486A90F2B68925D00C2C935 /* SplashViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		0486A9102B68925D00C2C935 /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		0486A9122B68925D00C2C935 /* ContackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContackView.swift; sourceTree = "<group>"; };
+		0486A9142B68925D00C2C935 /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		0486A9162B68925D00C2C935 /* PrayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerView.swift; sourceTree = "<group>"; };
+		0486A9182B68925D00C2C935 /* WorshipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorshipView.swift; sourceTree = "<group>"; };
+		0486A91A2B68925D00C2C935 /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		0486A91C2B68925D00C2C935 /* OfferingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferingView.swift; sourceTree = "<group>"; };
+		0486A91E2B68925D00C2C935 /* BulletinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulletinView.swift; sourceTree = "<group>"; };
+		0486A91F2B68925D00C2C935 /* ECCApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ECCApp.swift; path = ECC/ECCApp.swift; sourceTree = SOURCE_ROOT; };
+		0486A9202B68925D00C2C935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ECC/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		04CAE1522B4A3BA40065A257 /* ECC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CAE1552B4A3BA40065A257 /* ECCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCApp.swift; sourceTree = "<group>"; };
 		04CAE1572B4A3BA40065A257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +62,130 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0486A9032B68925D00C2C935 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Managers;
+			path = ECC/Managers;
+			sourceTree = SOURCE_ROOT;
+		};
+		0486A9052B68925D00C2C935 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0486A9062B68925D00C2C935 /* Employee.swift */,
+			);
+			name = Model;
+			path = ECC/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		0486A9072B68925D00C2C935 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04CAE15C2B4A3BA40065A257 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0486A9092B68925D00C2C935 /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				0486A90A2B68925D00C2C935 /* Extensions */,
+			);
+			name = Units;
+			path = ECC/Units;
+			sourceTree = SOURCE_ROOT;
+		};
+		0486A90A2B68925D00C2C935 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0486A90B2B68925D00C2C935 /* CGFloat.swift */,
+				0486A90C2B68925D00C2C935 /* Font.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0486A90D2B68925D00C2C935 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0486A90E2B68925D00C2C935 /* Splash */,
+				0486A9112B68925D00C2C935 /* Contact */,
+				0486A9132B68925D00C2C935 /* Board */,
+				0486A9152B68925D00C2C935 /* Prayer */,
+				0486A9172B68925D00C2C935 /* Worship */,
+				0486A9192B68925D00C2C935 /* MainTab */,
+				0486A91B2B68925D00C2C935 /* Offering */,
+				0486A91D2B68925D00C2C935 /* Bulletin */,
+			);
+			name = Scenes;
+			path = ECC/Scenes;
+			sourceTree = SOURCE_ROOT;
+		};
+		0486A90E2B68925D00C2C935 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				0486A90F2B68925D00C2C935 /* SplashViewModel.swift */,
+				0486A9102B68925D00C2C935 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		0486A9112B68925D00C2C935 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				0486A9122B68925D00C2C935 /* ContackView.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		0486A9132B68925D00C2C935 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				0486A9142B68925D00C2C935 /* BoardView.swift */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		0486A9152B68925D00C2C935 /* Prayer */ = {
+			isa = PBXGroup;
+			children = (
+				0486A9162B68925D00C2C935 /* PrayerView.swift */,
+			);
+			path = Prayer;
+			sourceTree = "<group>";
+		};
+		0486A9172B68925D00C2C935 /* Worship */ = {
+			isa = PBXGroup;
+			children = (
+				0486A9182B68925D00C2C935 /* WorshipView.swift */,
+			);
+			path = Worship;
+			sourceTree = "<group>";
+		};
+		0486A9192B68925D00C2C935 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				0486A91A2B68925D00C2C935 /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		0486A91B2B68925D00C2C935 /* Offering */ = {
+			isa = PBXGroup;
+			children = (
+				0486A91C2B68925D00C2C935 /* OfferingView.swift */,
+			);
+			path = Offering;
+			sourceTree = "<group>";
+		};
+		0486A91D2B68925D00C2C935 /* Bulletin */ = {
+			isa = PBXGroup;
+			children = (
+				0486A91E2B68925D00C2C935 /* BulletinView.swift */,
+			);
+			path = Bulletin;
+			sourceTree = "<group>";
+		};
 		04CAE1492B4A3BA30065A257 = {
 			isa = PBXGroup;
 			children = (
@@ -51,20 +205,19 @@
 		04CAE1542B4A3BA40065A257 /* ECC */ = {
 			isa = PBXGroup;
 			children = (
+				0486A9092B68925D00C2C935 /* Units */,
+				0486A9032B68925D00C2C935 /* Managers */,
+				0486A90D2B68925D00C2C935 /* Scenes */,
+				0486A9052B68925D00C2C935 /* Model */,
+				0486A9202B68925D00C2C935 /* Assets.xcassets */,
+				0486A9042B68925D00C2C935 /* ContentView.swift */,
+				0486A91F2B68925D00C2C935 /* ECCApp.swift */,
+				0486A9072B68925D00C2C935 /* Preview Content */,
 				04CAE1552B4A3BA40065A257 /* ECCApp.swift */,
 				04CAE1572B4A3BA40065A257 /* ContentView.swift */,
 				04CAE1592B4A3BA40065A257 /* Assets.xcassets */,
-				04CAE15B2B4A3BA40065A257 /* Preview Content */,
 			);
 			path = ECC;
-			sourceTree = "<group>";
-		};
-		04CAE15B2B4A3BA40065A257 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				04CAE15C2B4A3BA40065A257 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CAE15D2B4A3BA40065A257 /* Preview Assets.xcassets in Resources */,
+				0486A9302B68925D00C2C935 /* Assets.xcassets in Resources */,
 				04CAE15A2B4A3BA40065A257 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +291,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0486A92E2B68925D00C2C935 /* BulletinView.swift in Sources */,
+				0486A92A2B68925D00C2C935 /* PrayerView.swift in Sources */,
+				0486A9282B68925D00C2C935 /* ContackView.swift in Sources */,
+				0486A92F2B68925D00C2C935 /* ECCApp.swift in Sources */,
+				0486A9242B68925D00C2C935 /* CGFloat.swift in Sources */,
+				0486A9272B68925D00C2C935 /* SplashView.swift in Sources */,
 				04CAE1582B4A3BA40065A257 /* ContentView.swift in Sources */,
+				0486A9252B68925D00C2C935 /* Font.swift in Sources */,
+				0486A9262B68925D00C2C935 /* SplashViewModel.swift in Sources */,
+				0486A92C2B68925D00C2C935 /* MainTabView.swift in Sources */,
+				0486A92D2B68925D00C2C935 /* OfferingView.swift in Sources */,
+				0486A9222B68925D00C2C935 /* Employee.swift in Sources */,
+				0486A9292B68925D00C2C935 /* BoardView.swift in Sources */,
 				04CAE1562B4A3BA40065A257 /* ECCApp.swift in Sources */,
+				0486A9212B68925D00C2C935 /* ContentView.swift in Sources */,
+				0486A92B2B68925D00C2C935 /* WorshipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
