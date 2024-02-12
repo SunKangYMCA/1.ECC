@@ -8,11 +8,28 @@
 import SwiftUI
 
 struct BoardView: View {
+    @StateObject var viewModel: BoardViewModel = BoardViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                Text("< 게시판 >")
+                    .font(.eccFont(type: .largeBold))
+                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                List {
+                    ForEach(viewModel.informations) { information in
+                        NavigationLink {
+                            InformationView(information: information)
+                        } label: {
+                            Text(information.title)
+                        }
+                        
+                    }
+                }
+            }
+        }
     }
 }
-
 #Preview {
     BoardView()
 }

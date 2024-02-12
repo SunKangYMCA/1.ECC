@@ -8,7 +8,16 @@
 import Foundation
 
 enum BoardKind {
-    case 안내및행사, 교우동정, 새가족
+    case information, friendly, newFamily
     
-    
+    var title: String {
+        switch self {
+        case .information:
+            return "안내 및 행사"
+        case .friendly:
+            return "교우동정"
+        case .newFamily:
+            return "새가족"
+        }
+    }
 }

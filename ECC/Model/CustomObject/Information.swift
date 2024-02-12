@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Information: Codable, Identifiable, Equatable {
+struct Information: Identifiable, Equatable {
     var id: UUID = UUID()
     var kind: BoardKind
     var title: String
