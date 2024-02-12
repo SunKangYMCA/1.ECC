@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048261112B75D8FD000E3441 /* BoardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048261102B75D8FD000E3441 /* BoardType.swift */; };
 		0486A9212B68925D00C2C935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9042B68925D00C2C935 /* ContentView.swift */; };
 		0486A9222B68925D00C2C935 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9062B68925D00C2C935 /* Employee.swift */; };
 		0486A9242B68925D00C2C935 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A90B2B68925D00C2C935 /* CGFloat.swift */; };
@@ -22,6 +23,10 @@
 		0486A92E2B68925D00C2C935 /* BulletinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A91E2B68925D00C2C935 /* BulletinView.swift */; };
 		0486A92F2B68925D00C2C935 /* ECCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A91F2B68925D00C2C935 /* ECCApp.swift */; };
 		0486A9302B68925D00C2C935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0486A9202B68925D00C2C935 /* Assets.xcassets */; };
+		0486A9322B68991600C2C935 /* BoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9312B68991600C2C935 /* BoardViewModel.swift */; };
+		0486A9352B68994B00C2C935 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9342B68994B00C2C935 /* InformationView.swift */; };
+		0486A9372B689A0100C2C935 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9362B689A0100C2C935 /* Information.swift */; };
+		0486A9392B689DFA00C2C935 /* BoardKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9382B689DFA00C2C935 /* BoardKind.swift */; };
 		04CAE1562B4A3BA40065A257 /* ECCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAE1552B4A3BA40065A257 /* ECCApp.swift */; };
 		04CAE1582B4A3BA40065A257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAE1572B4A3BA40065A257 /* ContentView.swift */; };
 		04CAE15A2B4A3BA40065A257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CAE1592B4A3BA40065A257 /* Assets.xcassets */; };
@@ -29,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048261102B75D8FD000E3441 /* BoardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardType.swift; sourceTree = "<group>"; };
 		0486A9042B68925D00C2C935 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ECC/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		0486A9062B68925D00C2C935 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		0486A90B2B68925D00C2C935 /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
@@ -44,6 +50,10 @@
 		0486A91E2B68925D00C2C935 /* BulletinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulletinView.swift; sourceTree = "<group>"; };
 		0486A91F2B68925D00C2C935 /* ECCApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ECCApp.swift; path = ECC/ECCApp.swift; sourceTree = SOURCE_ROOT; };
 		0486A9202B68925D00C2C935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ECC/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		0486A9312B68991600C2C935 /* BoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewModel.swift; sourceTree = "<group>"; };
+		0486A9342B68994B00C2C935 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		0486A9362B689A0100C2C935 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		0486A9382B689DFA00C2C935 /* BoardKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardKind.swift; sourceTree = "<group>"; };
 		04CAE1522B4A3BA40065A257 /* ECC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CAE1552B4A3BA40065A257 /* ECCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCApp.swift; sourceTree = "<group>"; };
 		04CAE1572B4A3BA40065A257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,7 +83,8 @@
 		0486A9052B68925D00C2C935 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0486A9062B68925D00C2C935 /* Employee.swift */,
+				0486A93A2B68A64C00C2C935 /* CustomObject */,
+				0486A93B2B68A66500C2C935 /* Enum */,
 			);
 			name = Model;
 			path = ECC/Model;
@@ -111,6 +122,7 @@
 				0486A90E2B68925D00C2C935 /* Splash */,
 				0486A9112B68925D00C2C935 /* Contact */,
 				0486A9132B68925D00C2C935 /* Board */,
+				0486A9332B68992E00C2C935 /* Information */,
 				0486A9152B68925D00C2C935 /* Prayer */,
 				0486A9172B68925D00C2C935 /* Worship */,
 				0486A9192B68925D00C2C935 /* MainTab */,
@@ -142,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				0486A9142B68925D00C2C935 /* BoardView.swift */,
+				0486A9312B68991600C2C935 /* BoardViewModel.swift */,
 			);
 			path = Board;
 			sourceTree = "<group>";
@@ -184,6 +197,32 @@
 				0486A91E2B68925D00C2C935 /* BulletinView.swift */,
 			);
 			path = Bulletin;
+			sourceTree = "<group>";
+		};
+		0486A9332B68992E00C2C935 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				0486A9342B68994B00C2C935 /* InformationView.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		0486A93A2B68A64C00C2C935 /* CustomObject */ = {
+			isa = PBXGroup;
+			children = (
+				0486A9062B68925D00C2C935 /* Employee.swift */,
+				0486A9362B689A0100C2C935 /* Information.swift */,
+			);
+			path = CustomObject;
+			sourceTree = "<group>";
+		};
+		0486A93B2B68A66500C2C935 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				0486A9382B689DFA00C2C935 /* BoardKind.swift */,
+				048261102B75D8FD000E3441 /* BoardType.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 		04CAE1492B4A3BA30065A257 = {
@@ -295,6 +334,7 @@
 				0486A92A2B68925D00C2C935 /* PrayerView.swift in Sources */,
 				0486A9282B68925D00C2C935 /* ContackView.swift in Sources */,
 				0486A92F2B68925D00C2C935 /* ECCApp.swift in Sources */,
+				0486A9392B689DFA00C2C935 /* BoardKind.swift in Sources */,
 				0486A9242B68925D00C2C935 /* CGFloat.swift in Sources */,
 				0486A9272B68925D00C2C935 /* SplashView.swift in Sources */,
 				04CAE1582B4A3BA40065A257 /* ContentView.swift in Sources */,
@@ -303,8 +343,12 @@
 				0486A92C2B68925D00C2C935 /* MainTabView.swift in Sources */,
 				0486A92D2B68925D00C2C935 /* OfferingView.swift in Sources */,
 				0486A9222B68925D00C2C935 /* Employee.swift in Sources */,
+				048261112B75D8FD000E3441 /* BoardType.swift in Sources */,
+				0486A9372B689A0100C2C935 /* Information.swift in Sources */,
 				0486A9292B68925D00C2C935 /* BoardView.swift in Sources */,
 				04CAE1562B4A3BA40065A257 /* ECCApp.swift in Sources */,
+				0486A9322B68991600C2C935 /* BoardViewModel.swift in Sources */,
+				0486A9352B68994B00C2C935 /* InformationView.swift in Sources */,
 				0486A9212B68925D00C2C935 /* ContentView.swift in Sources */,
 				0486A92B2B68925D00C2C935 /* WorshipView.swift in Sources */,
 			);
