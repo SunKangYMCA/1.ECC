@@ -30,6 +30,10 @@ struct BoardView: View {
         }
     }
 }
+
+
+
+
 #Preview {
     BoardView()
 }
