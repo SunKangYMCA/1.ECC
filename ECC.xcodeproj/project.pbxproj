@@ -27,6 +27,9 @@
 		0486A9352B68994B00C2C935 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9342B68994B00C2C935 /* InformationView.swift */; };
 		0486A9372B689A0100C2C935 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9362B689A0100C2C935 /* Information.swift */; };
 		0486A9392B689DFA00C2C935 /* BoardKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9382B689DFA00C2C935 /* BoardKind.swift */; };
+		0497F9B52B818470007003E1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9B42B818470007003E1 /* MainView.swift */; };
+		0497F9B72B81864D007003E1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9B62B81864D007003E1 /* MainViewModel.swift */; };
+		0497F9B92B81880F007003E1 /* MainKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9B82B81880F007003E1 /* MainKind.swift */; };
 		04CAE1562B4A3BA40065A257 /* ECCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAE1552B4A3BA40065A257 /* ECCApp.swift */; };
 		04CAE1582B4A3BA40065A257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAE1572B4A3BA40065A257 /* ContentView.swift */; };
 		04CAE15A2B4A3BA40065A257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CAE1592B4A3BA40065A257 /* Assets.xcassets */; };
@@ -54,6 +57,9 @@
 		0486A9342B68994B00C2C935 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		0486A9362B689A0100C2C935 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
 		0486A9382B689DFA00C2C935 /* BoardKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardKind.swift; sourceTree = "<group>"; };
+		0497F9B42B818470007003E1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0497F9B62B81864D007003E1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		0497F9B82B81880F007003E1 /* MainKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainKind.swift; sourceTree = "<group>"; };
 		04CAE1522B4A3BA40065A257 /* ECC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CAE1552B4A3BA40065A257 /* ECCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCApp.swift; sourceTree = "<group>"; };
 		04CAE1572B4A3BA40065A257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,12 +126,13 @@
 			isa = PBXGroup;
 			children = (
 				0486A90E2B68925D00C2C935 /* Splash */,
+				0497F9B32B818450007003E1 /* Main */,
+				0486A9192B68925D00C2C935 /* MainTab */,
 				0486A9112B68925D00C2C935 /* Contact */,
 				0486A9132B68925D00C2C935 /* Board */,
 				0486A9332B68992E00C2C935 /* Information */,
 				0486A9152B68925D00C2C935 /* Prayer */,
 				0486A9172B68925D00C2C935 /* Worship */,
-				0486A9192B68925D00C2C935 /* MainTab */,
 				0486A91B2B68925D00C2C935 /* Offering */,
 				0486A91D2B68925D00C2C935 /* Bulletin */,
 			);
@@ -221,8 +228,18 @@
 			children = (
 				0486A9382B689DFA00C2C935 /* BoardKind.swift */,
 				048261102B75D8FD000E3441 /* BoardType.swift */,
+				0497F9B82B81880F007003E1 /* MainKind.swift */,
 			);
 			path = Enum;
+			sourceTree = "<group>";
+		};
+		0497F9B32B818450007003E1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0497F9B42B818470007003E1 /* MainView.swift */,
+				0497F9B62B81864D007003E1 /* MainViewModel.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		04CAE1492B4A3BA30065A257 = {
@@ -337,6 +354,7 @@
 				0486A9392B689DFA00C2C935 /* BoardKind.swift in Sources */,
 				0486A9242B68925D00C2C935 /* CGFloat.swift in Sources */,
 				0486A9272B68925D00C2C935 /* SplashView.swift in Sources */,
+				0497F9B52B818470007003E1 /* MainView.swift in Sources */,
 				04CAE1582B4A3BA40065A257 /* ContentView.swift in Sources */,
 				0486A9252B68925D00C2C935 /* Font.swift in Sources */,
 				0486A9262B68925D00C2C935 /* SplashViewModel.swift in Sources */,
@@ -349,7 +367,9 @@
 				04CAE1562B4A3BA40065A257 /* ECCApp.swift in Sources */,
 				0486A9322B68991600C2C935 /* BoardViewModel.swift in Sources */,
 				0486A9352B68994B00C2C935 /* InformationView.swift in Sources */,
+				0497F9B92B81880F007003E1 /* MainKind.swift in Sources */,
 				0486A9212B68925D00C2C935 /* ContentView.swift in Sources */,
+				0497F9B72B81864D007003E1 /* MainViewModel.swift in Sources */,
 				0486A92B2B68925D00C2C935 /* WorshipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
