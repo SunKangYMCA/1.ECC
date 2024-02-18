@@ -29,7 +29,8 @@
 		0486A9392B689DFA00C2C935 /* BoardKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9382B689DFA00C2C935 /* BoardKind.swift */; };
 		0497F9B52B818470007003E1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9B42B818470007003E1 /* MainView.swift */; };
 		0497F9B72B81864D007003E1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9B62B81864D007003E1 /* MainViewModel.swift */; };
-		0497F9B92B81880F007003E1 /* MainKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9B82B81880F007003E1 /* MainKind.swift */; };
+		0497F9B92B81880F007003E1 /* MainSubMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9B82B81880F007003E1 /* MainSubMenu.swift */; };
+		0497F9BB2B81B831007003E1 /* jubo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0497F9BA2B81B831007003E1 /* jubo.pdf */; };
 		04CAE1562B4A3BA40065A257 /* ECCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAE1552B4A3BA40065A257 /* ECCApp.swift */; };
 		04CAE1582B4A3BA40065A257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAE1572B4A3BA40065A257 /* ContentView.swift */; };
 		04CAE15A2B4A3BA40065A257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CAE1592B4A3BA40065A257 /* Assets.xcassets */; };
@@ -59,7 +60,8 @@
 		0486A9382B689DFA00C2C935 /* BoardKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardKind.swift; sourceTree = "<group>"; };
 		0497F9B42B818470007003E1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0497F9B62B81864D007003E1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		0497F9B82B81880F007003E1 /* MainKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainKind.swift; sourceTree = "<group>"; };
+		0497F9B82B81880F007003E1 /* MainSubMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSubMenu.swift; sourceTree = "<group>"; };
+		0497F9BA2B81B831007003E1 /* jubo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo.pdf; sourceTree = "<group>"; };
 		04CAE1522B4A3BA40065A257 /* ECC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CAE1552B4A3BA40065A257 /* ECCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCApp.swift; sourceTree = "<group>"; };
 		04CAE1572B4A3BA40065A257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -228,7 +230,7 @@
 			children = (
 				0486A9382B689DFA00C2C935 /* BoardKind.swift */,
 				048261102B75D8FD000E3441 /* BoardType.swift */,
-				0497F9B82B81880F007003E1 /* MainKind.swift */,
+				0497F9B82B81880F007003E1 /* MainSubMenu.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -261,6 +263,7 @@
 		04CAE1542B4A3BA40065A257 /* ECC */ = {
 			isa = PBXGroup;
 			children = (
+				0497F9BA2B81B831007003E1 /* jubo.pdf */,
 				0486A9092B68925D00C2C935 /* Units */,
 				0486A9032B68925D00C2C935 /* Managers */,
 				0486A90D2B68925D00C2C935 /* Scenes */,
@@ -334,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0497F9BB2B81B831007003E1 /* jubo.pdf in Resources */,
 				04CAE15D2B4A3BA40065A257 /* Preview Assets.xcassets in Resources */,
 				0486A9302B68925D00C2C935 /* Assets.xcassets in Resources */,
 				04CAE15A2B4A3BA40065A257 /* Assets.xcassets in Resources */,
@@ -367,7 +371,7 @@
 				04CAE1562B4A3BA40065A257 /* ECCApp.swift in Sources */,
 				0486A9322B68991600C2C935 /* BoardViewModel.swift in Sources */,
 				0486A9352B68994B00C2C935 /* InformationView.swift in Sources */,
-				0497F9B92B81880F007003E1 /* MainKind.swift in Sources */,
+				0497F9B92B81880F007003E1 /* MainSubMenu.swift in Sources */,
 				0486A9212B68925D00C2C935 /* ContentView.swift in Sources */,
 				0497F9B72B81864D007003E1 /* MainViewModel.swift in Sources */,
 				0486A92B2B68925D00C2C935 /* WorshipView.swift in Sources */,
