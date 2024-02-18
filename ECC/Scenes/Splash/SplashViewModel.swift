@@ -11,7 +11,7 @@ class SplashViewModel: ObservableObject {
     @Published var shouldShowMainTabView: Bool = false
     
     func showMainTabView() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             withAnimation {
                 self.shouldShowMainTabView = true
             }
