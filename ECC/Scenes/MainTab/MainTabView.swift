@@ -10,6 +10,10 @@ import SwiftUI
 struct MainTabView: View {
     var body: some View {
         TabView {
+            MainView()
+                .tabItem {
+                    Label("Main", systemImage: "building.columns")
+                }
             BulletinView()
                 .tabItem {
                     Label("주보", systemImage: "book.pages")
@@ -20,11 +24,11 @@ struct MainTabView: View {
                     Label("예배영상", systemImage: "tv")
                 }
             
-            OfferingView()
-                .tabItem {
-                    Label("온라인헌금", systemImage: "heart.circle")
-                }
-            
+//            OfferingView()
+//                .tabItem {
+//                    Label("온라인헌금", systemImage: "heart.circle")
+//                }
+//            
             PrayerView()
                 .tabItem {
                 Label("중보기도", systemImage: "hands.and.sparkles.fill")

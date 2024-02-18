@@ -5,4 +5,8 @@
 //  Created by 강성찬 on 2024-02-17.
 //
 
-import Foundation
+import SwiftUI
+
+class MainViewModel: ObservableObject {
+    @Published var mainKindTitle: MainKind = .main
+}
