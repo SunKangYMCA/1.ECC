@@ -10,5 +10,5 @@ import SwiftUI
 class MainViewModel: ObservableObject {
     @Published var mainSubManuTitle: MainSubMenu = .bulletin
     
-    let columns: [GridItem] = [GridItem(.adaptive(minimum: .smallScreenWidth), spacing: 10)]
+    let columns: [GridItem] = [GridItem(.adaptive(minimum: .smallScreenWidth), spacing: 0)]
 }
