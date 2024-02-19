@@ -11,20 +11,18 @@ struct BoardView: View {
     @StateObject var viewModel: BoardViewModel = BoardViewModel()
     
     var body: some View {
-        NavigationView {
-            VStack {
-                Text("< 게시판 >")
-                    .font(.eccFont(type: .largeBold))
-                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                List {
-                    ForEach(viewModel.informations) { information in
-                        NavigationLink {
-                            InformationView(information: information)
-                        } label: {
-                            Text(information.title)
-                        }
-                        
+        VStack {
+            Text("< 게시판 >")
+                .font(.eccFont(type: .largeBold))
+                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+            List {
+                ForEach(viewModel.informations) { information in
+                    NavigationLink {
+                        InformationView(information: information)
+                    } label: {
+                        Text(information.title)
                     }
+                    
                 }
             }
         }

@@ -38,7 +38,7 @@ enum MainSubMenu: CaseIterable {
         case .board:
             return AnyView(BoardView())
         case .contact:
-            return AnyView(ContackView())
+            return AnyView(ContactView())
         case .information:
             return AnyView(InformationView(information: Information(kind: BoardKind.friendly, title: "", date: "", writer: "", detail: "")))
         }

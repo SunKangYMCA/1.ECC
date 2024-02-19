@@ -6,21 +6,23 @@
 //
 
 import SwiftUI
-import PDFKit
 
 struct BulletinView: View {
-    
-    let doc: PDFDocument
-    
-    init() {
-//        let url = try? Data(contentsOf: URL(string: "https://www.lkpc.org/assets/board/files/lpc_b51a347f3994453cae77b377b783c4ad.pdf")!)
-        let url = Bundle.main.url(forResource: "jubo", withExtension: "pdf")!
-//        self.doc = PDFDocument(data: url!)!
-        self.doc = PDFDocument(url: url)!
-    }
+    @StateObject var viewModel: BulletinViewModel = BulletinViewModel()
     
     var body: some View {
-        PDFKitView(showing: doc)
+        VStack {
+            List() {
+                ForEach(viewModel.bulletins, id: \.id) { bulletin in
+                    NavigationLink {
+                        PDFKitView(bulletin: bulletin.url)
+                    } label: {
+                        Text(bulletin.date)
+                        
+                    }
+                }
+            }
+        }
     }
 }
 
