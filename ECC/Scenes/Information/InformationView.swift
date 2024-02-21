@@ -10,7 +10,12 @@ import SwiftUI
 struct InformationView: View {
     var information: Information
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            
+        }
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationTitle("알려드립니다")
     }
 }
 

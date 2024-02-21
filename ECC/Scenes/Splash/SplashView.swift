@@ -15,20 +15,20 @@ struct SplashView: View {
             if viewModel.shouldShowMainTabView {
                 MainTabView()
             } else {
-                ZStack {
-                    VStack {
-                        Image("logo")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                    }
-                }
+                logoView
             }
         }
         .onAppear(perform: {
             viewModel.showMainTabView()
         })
     }
-    
+    private var logoView: some View {
+        ZStack {
+                Image("logo")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+        }
+    }
 }
 
 struct SplashView_Previews: PreviewProvider {

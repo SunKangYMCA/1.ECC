@@ -13,7 +13,7 @@ struct BoardView: View {
     var body: some View {
         VStack {
             Text("< 게시판 >")
-                .font(.eccFont(type: .largeBold))
+                .font(.eccFont(type: .normalBold))
                 .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
             List {
                 ForEach(viewModel.informations) { information in
