@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum MainSubMenu: CaseIterable {
-    case bulletin, offering, worship, board, contact, information
+    case bulletin, offering, worship, board, contact, information, prayer
     
     var title: String {
         switch self {
@@ -24,6 +24,8 @@ enum MainSubMenu: CaseIterable {
             return "연락처"
         case .information:
             return "알려드립니다"
+        case .prayer:
+            return "중보기도"
         }
     }
     
@@ -41,6 +43,8 @@ enum MainSubMenu: CaseIterable {
             return AnyView(ContactView())
         case .information:
             return AnyView(InformationView(information: Information(kind: BoardKind.friendly, title: "", date: "", writer: "", detail: "")))
+        case .prayer:
+            return AnyView(PrayerView())
         }
     }
 }

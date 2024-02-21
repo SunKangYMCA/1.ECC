@@ -13,10 +13,25 @@ struct MainView: View {
     
     var body: some View {
         VStack {
-            Text("에드먼튼 중앙 장로교회에\n오신 것을 환영합니다.")
-                .multilineTextAlignment(.center)
-                .font(.eccFont(type: .normalBold))
             
+            headingView
+                .padding(.top, 30)
+            
+            vGridView
+            
+        }
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationTitle("Main")
+    }
+    
+    private var headingView: some View {
+        Text(viewModel.heading)
+            .multilineTextAlignment(.center)
+            .font(.eccFont(type: .normalBold))
+    }
+    
+    private var vGridView: some View {
+        ScrollView {
             LazyVGrid(columns: viewModel.columns) {
                 ForEach(MainSubMenu.allCases, id: \.self) { menu in
                     NavigationLink {
@@ -35,8 +50,6 @@ struct MainView: View {
                 }
             }
         }
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationTitle("Main")
     }
 }
 

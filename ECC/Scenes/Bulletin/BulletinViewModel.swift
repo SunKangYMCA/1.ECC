@@ -9,6 +9,7 @@ import Foundation
 
 class BulletinViewModel: ObservableObject {
     
+    // ## This file well be taken from website of the church.
     @Published var bulletins: [Bulletin] = [
     Bulletin(date: "2.18.2024", url: "jubo0218"),
     Bulletin(date: "2.11.2024", url: "jubo0211"),

@@ -37,7 +37,7 @@ extension Font {
         }
         
     }
-    static func eccFont(type: Font.ECCFontType = .normal) -> Font {
+    static func eccFont(type: Font.ECCFontType) -> Font {
         .system(size: type.size, weight: type.weight)
     }
 }
