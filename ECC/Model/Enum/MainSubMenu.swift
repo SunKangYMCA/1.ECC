@@ -23,7 +23,7 @@ enum MainSubMenu: CaseIterable {
         case .contact:
             return "연락처"
         case .information:
-            return "알려드립니다"
+            return "교회소개"
         case .prayer:
             return "중보기도"
         }

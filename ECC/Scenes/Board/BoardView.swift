@@ -12,22 +12,37 @@ struct BoardView: View {
     
     var body: some View {
         VStack {
-            Text("< 게시판 >")
-                .font(.eccFont(type: .normalBold))
-                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-            List {
-                ForEach(viewModel.informations) { information in
-                    NavigationLink {
-                        InformationView(information: information)
-                    } label: {
-                        Text(information.title)
-                    }
-                    
+            boardListView
+        }
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationTitle("게시판")
+    }
+    
+    private var boardListView: some View {
+        
+        LazyVGrid(columns: viewModel.columns) {
+            ForEach(BoardType.allCases, id: \.self) { type in
+                NavigationLink {
+                    type.destination
+                } label: {
+                    Text(type.title)
+                        .foregroundColor(.white)
+                        .font(.eccFont(type: .normalBold))
+                        .frame(width: .smallScreenWidth)
+                        .padding()
+                        .background(
+                            Color.blue
+                                .opacity(0.4)
+                                .cornerRadius(.cornerRadius)
+                        )
+                        .padding()
                 }
+                
             }
         }
     }
 }
+
 #Preview {
     BoardView()
 }

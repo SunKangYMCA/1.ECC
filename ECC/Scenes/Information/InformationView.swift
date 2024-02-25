@@ -15,7 +15,7 @@ struct InformationView: View {
             
         }
         .navigationBarTitleDisplayMode(.inline)
-        .navigationTitle("알려드립니다")
+        .navigationTitle("교회소개")
     }
 }
 

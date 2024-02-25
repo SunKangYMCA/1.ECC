@@ -40,7 +40,7 @@ struct MainView: View {
                         Text(menu.title)
                             .foregroundColor(.white)
                             .font(.eccFont(type: .normalBold))
-                            .frame(width: .smallScreenWidth, height: .smallScreenWidth)
+                            .frame(width: .smallScreenWidth, height: .tinyScreenWidth)
                             .background(
                                 Color.blue
                                     .opacity(0.4)

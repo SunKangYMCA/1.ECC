@@ -24,6 +24,11 @@ struct ContactView: View {
                 addressCopyButton
                 
             }
+            .padding()
+            
+            churchPhoneNumberView
+            
+            churchEmailaView
             
             Spacer()
         }
@@ -79,6 +84,28 @@ struct ContactView: View {
                         .opacity(0.6)
                         .cornerRadius(.cornerRadius)
                 )
+        }
+    }
+    
+    private var churchPhoneNumberView: some View {
+        Link(destination: URL(string: viewModel.churchPhoneNumber)!) {
+            HStack {
+                Image(systemName: "phone")
+                
+                Text(viewModel.churchPhoneNumber)
+                    .font(.eccFont(type: .smallBold))
+            }
+        }
+    }
+    
+    private var churchEmailaView: some View {
+        Link(destination: URL(string: viewModel.churchEmailaddress)!) {
+            HStack {
+                Image(systemName: "email")
+                
+                Text(viewModel.churchEmailaddress)
+                    .font(.eccFont(type: .smallBold))
+            }
         }
     }
 }
