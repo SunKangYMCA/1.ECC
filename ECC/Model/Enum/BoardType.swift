@@ -29,45 +29,15 @@ enum BoardType: CaseIterable {
     var destination: AnyView {
         switch self {
         case .kindergarten:
-            return AnyView(BoardListDetailView(type: .kindergarten))
+            return AnyView(BoardListView(viewModel: BoardListViewModel(type: .kindergarten)))
         case .kids:
-            return AnyView(BoardListDetailView(type: .kids))
+            return AnyView(BoardListView(viewModel: BoardListViewModel(type: .kids)))
         case .youth:
-            return AnyView(BoardListDetailView(type: .youth))
+            return AnyView(BoardListView(viewModel: BoardListViewModel(type: .youth)))
         case .youngAdults:
-            return AnyView(BoardListDetailView(type: .youngAdults))
+            return AnyView(BoardListView(viewModel: BoardListViewModel(type: .youngAdults)))
         case .oldAdults:
-            return AnyView(BoardListDetailView(type: .oldAdults))
-        }
-    }
-    
-    var detail: BoardDetail {
-        switch self {
-        case .kindergarten:
-            return BoardDetail(date: "", title: "", detail: "")
-        case .kids:
-            return BoardDetail(date: "", title: "", detail: "")
-        case .youth:
-            return BoardDetail(date: "", title: "", detail: "")
-        case .youngAdults:
-            return BoardDetail(date: "", title: "", detail: "")
-        case .oldAdults:
-            return BoardDetail(date: "", title: "", detail: "")
-        }
-    }
-    
-    var details: [BoardDetail] {
-        switch self {
-        case .kindergarten:
-            return []
-        case .kids:
-            return []
-        case .youth:
-            return []
-        case .youngAdults:
-            return []
-        case .oldAdults:
-            return []
+            return AnyView(BoardListView(viewModel: BoardListViewModel(type: .oldAdults)))
         }
     }
 }

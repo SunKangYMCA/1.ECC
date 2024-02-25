@@ -11,15 +11,12 @@ struct BoardView: View {
     @StateObject var viewModel: BoardViewModel = BoardViewModel()
     
     var body: some View {
-        VStack {
-            boardListView
-        }
+        boardListView
         .navigationBarTitleDisplayMode(.inline)
         .navigationTitle("게시판")
     }
     
     private var boardListView: some View {
-        
         LazyVGrid(columns: viewModel.columns) {
             ForEach(BoardType.allCases, id: \.self) { type in
                 NavigationLink {

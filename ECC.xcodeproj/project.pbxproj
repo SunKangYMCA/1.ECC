@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041218802B866882003A33E5 /* BoardListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412187F2B866882003A33E5 /* BoardListDetailView.swift */; };
+		026E35CB2B8AE9580099ECF5 /* board_kids.json in Resources */ = {isa = PBXBuildFile; fileRef = 026E35CA2B8AE9580099ECF5 /* board_kids.json */; };
+		041218802B866882003A33E5 /* BoardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412187F2B866882003A33E5 /* BoardListView.swift */; };
 		042080052B82E9D1009B84B6 /* jubo0211.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 042080042B82E9D1009B84B6 /* jubo0211.pdf */; };
 		042080072B82EACF009B84B6 /* jubo0204.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 042080062B82EACF009B84B6 /* jubo0204.pdf */; };
 		042080092B82EAE8009B84B6 /* jubo0128.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 042080082B82EAE8009B84B6 /* jubo0128.pdf */; };
 		0420800B2B82EB0B009B84B6 /* jubo0121.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0420800A2B82EB0B009B84B6 /* jubo0121.pdf */; };
 		0420800D2B82EB20009B84B6 /* jubo0114.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0420800C2B82EB20009B84B6 /* jubo0114.pdf */; };
 		0420800F2B82EB37009B84B6 /* jubo0107.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0420800E2B82EB37009B84B6 /* jubo0107.pdf */; };
-		0479AC4B2B88086100E6DA61 /* BoardListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AC4A2B88086100E6DA61 /* BoardListDetailViewModel.swift */; };
+		0479AC4B2B88086100E6DA61 /* BoardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AC4A2B88086100E6DA61 /* BoardListViewModel.swift */; };
 		0479AC4D2B8808EC00E6DA61 /* BoardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AC4C2B8808EC00E6DA61 /* BoardDetail.swift */; };
 		048261112B75D8FD000E3441 /* BoardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048261102B75D8FD000E3441 /* BoardType.swift */; };
 		0486A9212B68925D00C2C935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9042B68925D00C2C935 /* ContentView.swift */; };
@@ -54,14 +55,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0412187F2B866882003A33E5 /* BoardListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListDetailView.swift; sourceTree = "<group>"; };
+		026E35CA2B8AE9580099ECF5 /* board_kids.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = board_kids.json; sourceTree = "<group>"; };
+		0412187F2B866882003A33E5 /* BoardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListView.swift; sourceTree = "<group>"; };
 		042080042B82E9D1009B84B6 /* jubo0211.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0211.pdf; sourceTree = "<group>"; };
 		042080062B82EACF009B84B6 /* jubo0204.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0204.pdf; sourceTree = "<group>"; };
 		042080082B82EAE8009B84B6 /* jubo0128.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0128.pdf; sourceTree = "<group>"; };
 		0420800A2B82EB0B009B84B6 /* jubo0121.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0121.pdf; sourceTree = "<group>"; };
 		0420800C2B82EB20009B84B6 /* jubo0114.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0114.pdf; sourceTree = "<group>"; };
 		0420800E2B82EB37009B84B6 /* jubo0107.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0107.pdf; sourceTree = "<group>"; };
-		0479AC4A2B88086100E6DA61 /* BoardListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListDetailViewModel.swift; sourceTree = "<group>"; };
+		0479AC4A2B88086100E6DA61 /* BoardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListViewModel.swift; sourceTree = "<group>"; };
 		0479AC4C2B8808EC00E6DA61 /* BoardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDetail.swift; sourceTree = "<group>"; };
 		048261102B75D8FD000E3441 /* BoardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardType.swift; sourceTree = "<group>"; };
 		0486A9042B68925D00C2C935 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ECC/ContentView.swift; sourceTree = SOURCE_ROOT; };
@@ -112,13 +114,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0412187E2B866865003A33E5 /* BoardListDetail */ = {
+		026E35C92B8AE91B0099ECF5 /* MockResponse */ = {
 			isa = PBXGroup;
 			children = (
-				0412187F2B866882003A33E5 /* BoardListDetailView.swift */,
-				0479AC4A2B88086100E6DA61 /* BoardListDetailViewModel.swift */,
+				026E35CA2B8AE9580099ECF5 /* board_kids.json */,
 			);
-			path = BoardListDetail;
+			path = MockResponse;
+			sourceTree = "<group>";
+		};
+		0412187E2B866865003A33E5 /* BoardList */ = {
+			isa = PBXGroup;
+			children = (
+				0412187F2B866882003A33E5 /* BoardListView.swift */,
+				0479AC4A2B88086100E6DA61 /* BoardListViewModel.swift */,
+			);
+			path = BoardList;
 			sourceTree = "<group>";
 		};
 		0486A9032B68925D00C2C935 /* Managers */ = {
@@ -173,7 +183,7 @@
 				0486A9192B68925D00C2C935 /* MainTab */,
 				0486A9112B68925D00C2C935 /* Contact */,
 				0486A9132B68925D00C2C935 /* Board */,
-				0412187E2B866865003A33E5 /* BoardListDetail */,
+				0412187E2B866865003A33E5 /* BoardList */,
 				0486A9332B68992E00C2C935 /* Information */,
 				0486A9152B68925D00C2C935 /* Prayer */,
 				0486A9172B68925D00C2C935 /* Worship */,
@@ -320,6 +330,7 @@
 		04CAE1542B4A3BA40065A257 /* ECC */ = {
 			isa = PBXGroup;
 			children = (
+				026E35C92B8AE91B0099ECF5 /* MockResponse */,
 				0497F9BA2B81B831007003E1 /* jubo0218.pdf */,
 				042080042B82E9D1009B84B6 /* jubo0211.pdf */,
 				042080062B82EACF009B84B6 /* jubo0204.pdf */,
@@ -406,6 +417,7 @@
 				042080072B82EACF009B84B6 /* jubo0204.pdf in Resources */,
 				04CAE15D2B4A3BA40065A257 /* Preview Assets.xcassets in Resources */,
 				0420800F2B82EB37009B84B6 /* jubo0107.pdf in Resources */,
+				026E35CB2B8AE9580099ECF5 /* board_kids.json in Resources */,
 				0486A9302B68925D00C2C935 /* Assets.xcassets in Resources */,
 				0420800B2B82EB0B009B84B6 /* jubo0121.pdf in Resources */,
 				0420800D2B82EB20009B84B6 /* jubo0114.pdf in Resources */,
@@ -427,7 +439,7 @@
 				0486A9282B68925D00C2C935 /* ContactView.swift in Sources */,
 				04D3CBE22B82C10600BD3D4F /* Bulletin.swift in Sources */,
 				0486A92F2B68925D00C2C935 /* ECCApp.swift in Sources */,
-				041218802B866882003A33E5 /* BoardListDetailView.swift in Sources */,
+				041218802B866882003A33E5 /* BoardListView.swift in Sources */,
 				0497F9C32B856EB1007003E1 /* OfferingViewModel.swift in Sources */,
 				0486A9392B689DFA00C2C935 /* BoardKind.swift in Sources */,
 				0486A9242B68925D00C2C935 /* CGFloat.swift in Sources */,
@@ -453,7 +465,7 @@
 				0497F9B72B81864D007003E1 /* MainViewModel.swift in Sources */,
 				0497F9BE2B8563DB007003E1 /* ContactViewModel.swift in Sources */,
 				04D3CBDE2B82B62A00BD3D4F /* PDFKitView.swift in Sources */,
-				0479AC4B2B88086100E6DA61 /* BoardListDetailViewModel.swift in Sources */,
+				0479AC4B2B88086100E6DA61 /* BoardListViewModel.swift in Sources */,
 				0486A92B2B68925D00C2C935 /* WorshipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

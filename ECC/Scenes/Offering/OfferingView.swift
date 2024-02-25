@@ -24,8 +24,9 @@ struct OfferingView: View {
         .navigationTitle("온라인 헌금")
     }
     private var moveOfferingSiteButton: some View {
-        
-        Link(destination: URL(string: viewModel.offeringURL)!) {
+        Button {
+            viewModel.openURL()
+        } label: {
             Text("에드먼트 중앙교회\n온라인 헌금 사이트로 이동")
                 .multilineTextAlignment(.center)
                 .foregroundColor(.white)

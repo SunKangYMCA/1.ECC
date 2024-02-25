@@ -9,11 +9,11 @@ import SwiftUI
 
 class ContactViewModel: ObservableObject {
     
-    @Published var pasteboard = UIPasteboard.general
-    @Published var churchAddress: String = "2551 Ellwood Dr SW, Edmonton, AB T6X 0P7"
-    @Published var churchGoogleMapsURL: String = "https://maps.app.goo.gl/zDF5YetTKwRYyPHt7"
-    @Published var churchPhoneNumber: String = "000-000-0000"
-    @Published var churchEmailaddress: String = "ecccentrechurch@church.com"
+    let pasteboard = UIPasteboard.general
+    let churchAddress: String = "2551 Ellwood Dr SW, Edmonton, AB T6X 0P7"
+    let churchGoogleMapsURL: String = "https://maps.app.goo.gl/zDF5YetTKwRYyPHt7"
+    let churchPhoneNumber: String = "tel://000-000-0000"
+    let churchEmailaddress: String = "mailto:ecccentrechurch@church.com"
 
     func makeAddressCopyButton() {
         pasteboard.string = churchAddress
