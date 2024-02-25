@@ -11,9 +11,7 @@ import SwiftUI
 struct ECCApp: App {
     var body: some Scene {
         WindowGroup {
-            NavigationView {
                 SplashView()
-            }
         }
     }
 }

@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041218802B866882003A33E5 /* BoardListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412187F2B866882003A33E5 /* BoardListDetailView.swift */; };
 		042080052B82E9D1009B84B6 /* jubo0211.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 042080042B82E9D1009B84B6 /* jubo0211.pdf */; };
 		042080072B82EACF009B84B6 /* jubo0204.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 042080062B82EACF009B84B6 /* jubo0204.pdf */; };
 		042080092B82EAE8009B84B6 /* jubo0128.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 042080082B82EAE8009B84B6 /* jubo0128.pdf */; };
 		0420800B2B82EB0B009B84B6 /* jubo0121.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0420800A2B82EB0B009B84B6 /* jubo0121.pdf */; };
 		0420800D2B82EB20009B84B6 /* jubo0114.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0420800C2B82EB20009B84B6 /* jubo0114.pdf */; };
 		0420800F2B82EB37009B84B6 /* jubo0107.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0420800E2B82EB37009B84B6 /* jubo0107.pdf */; };
+		0479AC4B2B88086100E6DA61 /* BoardListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AC4A2B88086100E6DA61 /* BoardListDetailViewModel.swift */; };
+		0479AC4D2B8808EC00E6DA61 /* BoardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AC4C2B8808EC00E6DA61 /* BoardDetail.swift */; };
 		048261112B75D8FD000E3441 /* BoardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048261102B75D8FD000E3441 /* BoardType.swift */; };
 		0486A9212B68925D00C2C935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9042B68925D00C2C935 /* ContentView.swift */; };
 		0486A9222B68925D00C2C935 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9062B68925D00C2C935 /* Employee.swift */; };
@@ -40,6 +43,7 @@
 		0497F9BE2B8563DB007003E1 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9BD2B8563DB007003E1 /* ContactViewModel.swift */; };
 		0497F9C12B856E5D007003E1 /* IntroImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9C02B856E5D007003E1 /* IntroImage.swift */; };
 		0497F9C32B856EB1007003E1 /* OfferingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9C22B856EB1007003E1 /* OfferingViewModel.swift */; };
+		0497F9C52B85B324007003E1 /* OldAdultsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9C42B85B324007003E1 /* OldAdultsType.swift */; };
 		04CAE1562B4A3BA40065A257 /* ECCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAE1552B4A3BA40065A257 /* ECCApp.swift */; };
 		04CAE1582B4A3BA40065A257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAE1572B4A3BA40065A257 /* ContentView.swift */; };
 		04CAE15A2B4A3BA40065A257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CAE1592B4A3BA40065A257 /* Assets.xcassets */; };
@@ -50,12 +54,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0412187F2B866882003A33E5 /* BoardListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListDetailView.swift; sourceTree = "<group>"; };
 		042080042B82E9D1009B84B6 /* jubo0211.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0211.pdf; sourceTree = "<group>"; };
 		042080062B82EACF009B84B6 /* jubo0204.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0204.pdf; sourceTree = "<group>"; };
 		042080082B82EAE8009B84B6 /* jubo0128.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0128.pdf; sourceTree = "<group>"; };
 		0420800A2B82EB0B009B84B6 /* jubo0121.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0121.pdf; sourceTree = "<group>"; };
 		0420800C2B82EB20009B84B6 /* jubo0114.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0114.pdf; sourceTree = "<group>"; };
 		0420800E2B82EB37009B84B6 /* jubo0107.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0107.pdf; sourceTree = "<group>"; };
+		0479AC4A2B88086100E6DA61 /* BoardListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListDetailViewModel.swift; sourceTree = "<group>"; };
+		0479AC4C2B8808EC00E6DA61 /* BoardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDetail.swift; sourceTree = "<group>"; };
 		048261102B75D8FD000E3441 /* BoardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardType.swift; sourceTree = "<group>"; };
 		0486A9042B68925D00C2C935 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ECC/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		0486A9062B68925D00C2C935 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
@@ -83,6 +90,7 @@
 		0497F9BD2B8563DB007003E1 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
 		0497F9C02B856E5D007003E1 /* IntroImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroImage.swift; sourceTree = "<group>"; };
 		0497F9C22B856EB1007003E1 /* OfferingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferingViewModel.swift; sourceTree = "<group>"; };
+		0497F9C42B85B324007003E1 /* OldAdultsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldAdultsType.swift; sourceTree = "<group>"; };
 		04CAE1522B4A3BA40065A257 /* ECC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CAE1552B4A3BA40065A257 /* ECCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCApp.swift; sourceTree = "<group>"; };
 		04CAE1572B4A3BA40065A257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +112,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0412187E2B866865003A33E5 /* BoardListDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0412187F2B866882003A33E5 /* BoardListDetailView.swift */,
+				0479AC4A2B88086100E6DA61 /* BoardListDetailViewModel.swift */,
+			);
+			path = BoardListDetail;
+			sourceTree = "<group>";
+		};
 		0486A9032B68925D00C2C935 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +173,7 @@
 				0486A9192B68925D00C2C935 /* MainTab */,
 				0486A9112B68925D00C2C935 /* Contact */,
 				0486A9132B68925D00C2C935 /* Board */,
+				0412187E2B866865003A33E5 /* BoardListDetail */,
 				0486A9332B68992E00C2C935 /* Information */,
 				0486A9152B68925D00C2C935 /* Prayer */,
 				0486A9172B68925D00C2C935 /* Worship */,
@@ -249,6 +267,7 @@
 			children = (
 				0486A9062B68925D00C2C935 /* Employee.swift */,
 				0486A9362B689A0100C2C935 /* Information.swift */,
+				0479AC4C2B8808EC00E6DA61 /* BoardDetail.swift */,
 				04D3CBE12B82C10600BD3D4F /* Bulletin.swift */,
 			);
 			path = CustomObject;
@@ -259,6 +278,7 @@
 			children = (
 				0486A9382B689DFA00C2C935 /* BoardKind.swift */,
 				048261102B75D8FD000E3441 /* BoardType.swift */,
+				0497F9C42B85B324007003E1 /* OldAdultsType.swift */,
 				0497F9B82B81880F007003E1 /* MainSubMenu.swift */,
 			);
 			path = Enum;
@@ -407,6 +427,7 @@
 				0486A9282B68925D00C2C935 /* ContactView.swift in Sources */,
 				04D3CBE22B82C10600BD3D4F /* Bulletin.swift in Sources */,
 				0486A92F2B68925D00C2C935 /* ECCApp.swift in Sources */,
+				041218802B866882003A33E5 /* BoardListDetailView.swift in Sources */,
 				0497F9C32B856EB1007003E1 /* OfferingViewModel.swift in Sources */,
 				0486A9392B689DFA00C2C935 /* BoardKind.swift in Sources */,
 				0486A9242B68925D00C2C935 /* CGFloat.swift in Sources */,
@@ -414,12 +435,14 @@
 				0497F9B52B818470007003E1 /* MainView.swift in Sources */,
 				04CAE1582B4A3BA40065A257 /* ContentView.swift in Sources */,
 				0486A9252B68925D00C2C935 /* Font.swift in Sources */,
+				0497F9C52B85B324007003E1 /* OldAdultsType.swift in Sources */,
 				0486A9262B68925D00C2C935 /* SplashViewModel.swift in Sources */,
 				0486A92C2B68925D00C2C935 /* MainTabView.swift in Sources */,
 				0486A92D2B68925D00C2C935 /* OfferingView.swift in Sources */,
 				04D3CBE02B82C0A600BD3D4F /* BulletinViewModel.swift in Sources */,
 				0486A9222B68925D00C2C935 /* Employee.swift in Sources */,
 				048261112B75D8FD000E3441 /* BoardType.swift in Sources */,
+				0479AC4D2B8808EC00E6DA61 /* BoardDetail.swift in Sources */,
 				0486A9372B689A0100C2C935 /* Information.swift in Sources */,
 				0486A9292B68925D00C2C935 /* BoardView.swift in Sources */,
 				04CAE1562B4A3BA40065A257 /* ECCApp.swift in Sources */,
@@ -430,6 +453,7 @@
 				0497F9B72B81864D007003E1 /* MainViewModel.swift in Sources */,
 				0497F9BE2B8563DB007003E1 /* ContactViewModel.swift in Sources */,
 				04D3CBDE2B82B62A00BD3D4F /* PDFKitView.swift in Sources */,
+				0479AC4B2B88086100E6DA61 /* BoardListDetailViewModel.swift in Sources */,
 				0486A92B2B68925D00C2C935 /* WorshipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
