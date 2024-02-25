@@ -40,34 +40,4 @@ enum BoardType: CaseIterable {
             return AnyView(BoardListDetailView(type: .oldAdults))
         }
     }
-    
-    var detail: BoardDetail {
-        switch self {
-        case .kindergarten:
-            return BoardDetail(date: "", title: "", detail: "")
-        case .kids:
-            return BoardDetail(date: "", title: "", detail: "")
-        case .youth:
-            return BoardDetail(date: "", title: "", detail: "")
-        case .youngAdults:
-            return BoardDetail(date: "", title: "", detail: "")
-        case .oldAdults:
-            return BoardDetail(date: "", title: "", detail: "")
-        }
-    }
-    
-    var details: [BoardDetail] {
-        switch self {
-        case .kindergarten:
-            return []
-        case .kids:
-            return []
-        case .youth:
-            return []
-        case .youngAdults:
-            return []
-        case .oldAdults:
-            return []
-        }
-    }
 }

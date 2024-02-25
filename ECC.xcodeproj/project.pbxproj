@@ -61,6 +61,11 @@
 		0420800A2B82EB0B009B84B6 /* jubo0121.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0121.pdf; sourceTree = "<group>"; };
 		0420800C2B82EB20009B84B6 /* jubo0114.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0114.pdf; sourceTree = "<group>"; };
 		0420800E2B82EB37009B84B6 /* jubo0107.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0107.pdf; sourceTree = "<group>"; };
+		045E86A02B8BED9200239EF9 /* Board_Kindergarten.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Board_Kindergarten.json; sourceTree = "<group>"; };
+		045E86A12B8BEF6A00239EF9 /* Board_Kids.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Board_Kids.json; sourceTree = "<group>"; };
+		045E86A32B8BF18A00239EF9 /* Board_Youth.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Board_Youth.json; sourceTree = "<group>"; };
+		045E86A42B8BF2C700239EF9 /* Board_YoungAdults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Board_YoungAdults.json; sourceTree = "<group>"; };
+		045E86A72B8BF36E00239EF9 /* Board_OldAdults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Board_OldAdults.json; sourceTree = "<group>"; };
 		0479AC4A2B88086100E6DA61 /* BoardListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListDetailViewModel.swift; sourceTree = "<group>"; };
 		0479AC4C2B8808EC00E6DA61 /* BoardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDetail.swift; sourceTree = "<group>"; };
 		048261102B75D8FD000E3441 /* BoardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardType.swift; sourceTree = "<group>"; };
@@ -119,6 +124,18 @@
 				0479AC4A2B88086100E6DA61 /* BoardListDetailViewModel.swift */,
 			);
 			path = BoardListDetail;
+			sourceTree = "<group>";
+		};
+		045E869D2B8BED2500239EF9 /* MockResponses */ = {
+			isa = PBXGroup;
+			children = (
+				045E86A02B8BED9200239EF9 /* Board_Kindergarten.json */,
+				045E86A12B8BEF6A00239EF9 /* Board_Kids.json */,
+				045E86A32B8BF18A00239EF9 /* Board_Youth.json */,
+				045E86A42B8BF2C700239EF9 /* Board_YoungAdults.json */,
+				045E86A72B8BF36E00239EF9 /* Board_OldAdults.json */,
+			);
+			path = MockResponses;
 			sourceTree = "<group>";
 		};
 		0486A9032B68925D00C2C935 /* Managers */ = {
@@ -320,6 +337,7 @@
 		04CAE1542B4A3BA40065A257 /* ECC */ = {
 			isa = PBXGroup;
 			children = (
+				045E869D2B8BED2500239EF9 /* MockResponses */,
 				0497F9BA2B81B831007003E1 /* jubo0218.pdf */,
 				042080042B82E9D1009B84B6 /* jubo0211.pdf */,
 				042080062B82EACF009B84B6 /* jubo0204.pdf */,
