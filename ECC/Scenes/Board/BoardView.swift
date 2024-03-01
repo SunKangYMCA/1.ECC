@@ -1,48 +1,36 @@
 //
-//  BoardView.swift
+//  BoardListView.swift
 //  ECC
 //
-//  Created by 강성찬 on 2024-01-20.
+//  Created by 강성찬 on 2024-02-21.
 //
 
 import SwiftUI
 
 struct BoardView: View {
-    @StateObject var viewModel: BoardViewModel = BoardViewModel()
+    
+    @ObservedObject var viewModel: BoardViewModel
     
     var body: some View {
-        VStack {
-            boardListView
-        }
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationTitle("게시판")
-    }
-    
-    private var boardListView: some View {
-        
-        LazyVGrid(columns: viewModel.columns) {
-            ForEach(BoardType.allCases, id: \.self) { type in
+        List {
+            ForEach(viewModel.listContent, id: \.self) { detail in
                 NavigationLink {
-                    type.destination
+                    BoardDetailView(content: detail)
                 } label: {
-                    Text(type.title)
-                        .foregroundColor(.white)
-                        .font(.eccFont(type: .normalBold))
-                        .frame(width: .smallScreenWidth)
-                        .padding()
-                        .background(
-                            Color.blue
-                                .opacity(0.4)
-                                .cornerRadius(.cornerRadius)
-                        )
-                        .padding()
+                    HStack {
+                        Text(detail.title)
+                        Spacer()
+                        Text(detail.date)
+                    }
                 }
-                
             }
         }
+        
+        .navigationTitle(viewModel.type.title)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 #Preview {
-    BoardView()
+    BoardView(viewModel: BoardViewModel(type: .kids))
 }

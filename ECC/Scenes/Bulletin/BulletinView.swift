@@ -12,7 +12,7 @@ struct BulletinView: View {
     
     var body: some View {
             VStack {
-                IntroImage()
+                Banner()
                 
                 bulletinListView
                 

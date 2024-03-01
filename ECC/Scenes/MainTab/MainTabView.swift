@@ -42,7 +42,7 @@ struct MainTabView: View {
             }
             
             NavigationView {
-                BoardView()
+                BoardListView()
             }
             .tabItem {
                 Label("게시판", systemImage: "pencil.and.list.clipboard")

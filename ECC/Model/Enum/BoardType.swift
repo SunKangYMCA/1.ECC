@@ -29,15 +29,15 @@ enum BoardType: CaseIterable {
     var destination: AnyView {
         switch self {
         case .kindergarten:
-            return AnyView(BoardListDetailView(type: .kindergarten))
+            return AnyView(BoardView(viewModel: BoardViewModel(type: .kindergarten)))
         case .kids:
-            return AnyView(BoardListDetailView(type: .kids))
+            return AnyView(BoardView(viewModel: BoardViewModel(type: .kids)))
         case .youth:
-            return AnyView(BoardListDetailView(type: .youth))
+            return AnyView(BoardView(viewModel: BoardViewModel(type: .youth)))
         case .youngAdults:
-            return AnyView(BoardListDetailView(type: .youngAdults))
+            return AnyView(BoardView(viewModel: BoardViewModel(type: .youngAdults)))
         case .oldAdults:
-            return AnyView(BoardListDetailView(type: .oldAdults))
+            return AnyView(BoardView(viewModel: BoardViewModel(type: .oldAdults)))
         }
     }
 }

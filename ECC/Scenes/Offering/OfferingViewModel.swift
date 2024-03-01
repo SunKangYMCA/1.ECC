@@ -6,8 +6,18 @@
 //
 
 import Foundation
+import UIKit
 
 class OfferingViewModel: ObservableObject {
-    @Published var offeringURL: String = "https://www.example.com/TOS.html"
+    let offeringURL: URL? = URL(string:"https://www.example.com/TOS.html")
+    @Published var showError: Bool = false
+    
+    func openURL() {
+        guard let url = offeringURL else {
+            showError.toggle()
+            return
+        }
+        UIApplication.shared.open(url)
+    }
     
 }
