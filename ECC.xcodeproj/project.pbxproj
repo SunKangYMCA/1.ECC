@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041218802B866882003A33E5 /* BoardListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412187F2B866882003A33E5 /* BoardListDetailView.swift */; };
+		041218802B866882003A33E5 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412187F2B866882003A33E5 /* BoardView.swift */; };
 		042080052B82E9D1009B84B6 /* jubo0211.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 042080042B82E9D1009B84B6 /* jubo0211.pdf */; };
 		042080072B82EACF009B84B6 /* jubo0204.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 042080062B82EACF009B84B6 /* jubo0204.pdf */; };
 		042080092B82EAE8009B84B6 /* jubo0128.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 042080082B82EAE8009B84B6 /* jubo0128.pdf */; };
 		0420800B2B82EB0B009B84B6 /* jubo0121.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0420800A2B82EB0B009B84B6 /* jubo0121.pdf */; };
 		0420800D2B82EB20009B84B6 /* jubo0114.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0420800C2B82EB20009B84B6 /* jubo0114.pdf */; };
 		0420800F2B82EB37009B84B6 /* jubo0107.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0420800E2B82EB37009B84B6 /* jubo0107.pdf */; };
-		0479AC4B2B88086100E6DA61 /* BoardListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AC4A2B88086100E6DA61 /* BoardListDetailViewModel.swift */; };
+		0421AE382B9022C800BBC044 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421AE372B9022C800BBC044 /* FileManager.swift */; };
+		047824282B8D86EA0037CBF3 /* BoardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047824272B8D86EA0037CBF3 /* BoardDetailView.swift */; };
+		0479AC4B2B88086100E6DA61 /* BoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AC4A2B88086100E6DA61 /* BoardViewModel.swift */; };
 		0479AC4D2B8808EC00E6DA61 /* BoardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479AC4C2B8808EC00E6DA61 /* BoardDetail.swift */; };
 		048261112B75D8FD000E3441 /* BoardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048261102B75D8FD000E3441 /* BoardType.swift */; };
 		0486A9212B68925D00C2C935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9042B68925D00C2C935 /* ContentView.swift */; };
@@ -24,7 +26,7 @@
 		0486A9262B68925D00C2C935 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A90F2B68925D00C2C935 /* SplashViewModel.swift */; };
 		0486A9272B68925D00C2C935 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9102B68925D00C2C935 /* SplashView.swift */; };
 		0486A9282B68925D00C2C935 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9122B68925D00C2C935 /* ContactView.swift */; };
-		0486A9292B68925D00C2C935 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9142B68925D00C2C935 /* BoardView.swift */; };
+		0486A9292B68925D00C2C935 /* BoardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9142B68925D00C2C935 /* BoardListView.swift */; };
 		0486A92A2B68925D00C2C935 /* PrayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9162B68925D00C2C935 /* PrayerView.swift */; };
 		0486A92B2B68925D00C2C935 /* WorshipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9182B68925D00C2C935 /* WorshipView.swift */; };
 		0486A92C2B68925D00C2C935 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A91A2B68925D00C2C935 /* MainTabView.swift */; };
@@ -32,7 +34,7 @@
 		0486A92E2B68925D00C2C935 /* BulletinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A91E2B68925D00C2C935 /* BulletinView.swift */; };
 		0486A92F2B68925D00C2C935 /* ECCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A91F2B68925D00C2C935 /* ECCApp.swift */; };
 		0486A9302B68925D00C2C935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0486A9202B68925D00C2C935 /* Assets.xcassets */; };
-		0486A9322B68991600C2C935 /* BoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9312B68991600C2C935 /* BoardViewModel.swift */; };
+		0486A9322B68991600C2C935 /* BoardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9312B68991600C2C935 /* BoardListViewModel.swift */; };
 		0486A9352B68994B00C2C935 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9342B68994B00C2C935 /* InformationView.swift */; };
 		0486A9372B689A0100C2C935 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9362B689A0100C2C935 /* Information.swift */; };
 		0486A9392B689DFA00C2C935 /* BoardKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9382B689DFA00C2C935 /* BoardKind.swift */; };
@@ -41,7 +43,7 @@
 		0497F9B92B81880F007003E1 /* MainSubMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9B82B81880F007003E1 /* MainSubMenu.swift */; };
 		0497F9BB2B81B831007003E1 /* jubo0218.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0497F9BA2B81B831007003E1 /* jubo0218.pdf */; };
 		0497F9BE2B8563DB007003E1 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9BD2B8563DB007003E1 /* ContactViewModel.swift */; };
-		0497F9C12B856E5D007003E1 /* IntroImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9C02B856E5D007003E1 /* IntroImage.swift */; };
+		0497F9C12B856E5D007003E1 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9C02B856E5D007003E1 /* Banner.swift */; };
 		0497F9C32B856EB1007003E1 /* OfferingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9C22B856EB1007003E1 /* OfferingViewModel.swift */; };
 		0497F9C52B85B324007003E1 /* OldAdultsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9C42B85B324007003E1 /* OldAdultsType.swift */; };
 		04CAE1562B4A3BA40065A257 /* ECCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAE1552B4A3BA40065A257 /* ECCApp.swift */; };
@@ -54,14 +56,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0412187F2B866882003A33E5 /* BoardListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListDetailView.swift; sourceTree = "<group>"; };
+		0412187F2B866882003A33E5 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		042080042B82E9D1009B84B6 /* jubo0211.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0211.pdf; sourceTree = "<group>"; };
 		042080062B82EACF009B84B6 /* jubo0204.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0204.pdf; sourceTree = "<group>"; };
 		042080082B82EAE8009B84B6 /* jubo0128.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0128.pdf; sourceTree = "<group>"; };
 		0420800A2B82EB0B009B84B6 /* jubo0121.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0121.pdf; sourceTree = "<group>"; };
 		0420800C2B82EB20009B84B6 /* jubo0114.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0114.pdf; sourceTree = "<group>"; };
 		0420800E2B82EB37009B84B6 /* jubo0107.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0107.pdf; sourceTree = "<group>"; };
-		0479AC4A2B88086100E6DA61 /* BoardListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListDetailViewModel.swift; sourceTree = "<group>"; };
+		0421AE372B9022C800BBC044 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		045E86A02B8BED9200239EF9 /* Board_Kindergarten.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Board_Kindergarten.json; sourceTree = "<group>"; };
+		045E86A12B8BEF6A00239EF9 /* Board_Kids.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Board_Kids.json; sourceTree = "<group>"; };
+		045E86A32B8BF18A00239EF9 /* Board_Youth.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Board_Youth.json; sourceTree = "<group>"; };
+		045E86A42B8BF2C700239EF9 /* Board_YoungAdults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Board_YoungAdults.json; sourceTree = "<group>"; };
+		045E86A72B8BF36E00239EF9 /* Board_OldAdults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Board_OldAdults.json; sourceTree = "<group>"; };
+		047824272B8D86EA0037CBF3 /* BoardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDetailView.swift; sourceTree = "<group>"; };
+		0479AC4A2B88086100E6DA61 /* BoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewModel.swift; sourceTree = "<group>"; };
 		0479AC4C2B8808EC00E6DA61 /* BoardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDetail.swift; sourceTree = "<group>"; };
 		048261102B75D8FD000E3441 /* BoardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardType.swift; sourceTree = "<group>"; };
 		0486A9042B68925D00C2C935 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ECC/ContentView.swift; sourceTree = SOURCE_ROOT; };
@@ -71,7 +80,7 @@
 		0486A90F2B68925D00C2C935 /* SplashViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		0486A9102B68925D00C2C935 /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		0486A9122B68925D00C2C935 /* ContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
-		0486A9142B68925D00C2C935 /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		0486A9142B68925D00C2C935 /* BoardListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardListView.swift; sourceTree = "<group>"; };
 		0486A9162B68925D00C2C935 /* PrayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerView.swift; sourceTree = "<group>"; };
 		0486A9182B68925D00C2C935 /* WorshipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorshipView.swift; sourceTree = "<group>"; };
 		0486A91A2B68925D00C2C935 /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -79,7 +88,7 @@
 		0486A91E2B68925D00C2C935 /* BulletinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulletinView.swift; sourceTree = "<group>"; };
 		0486A91F2B68925D00C2C935 /* ECCApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ECCApp.swift; path = ECC/ECCApp.swift; sourceTree = SOURCE_ROOT; };
 		0486A9202B68925D00C2C935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ECC/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		0486A9312B68991600C2C935 /* BoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewModel.swift; sourceTree = "<group>"; };
+		0486A9312B68991600C2C935 /* BoardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListViewModel.swift; sourceTree = "<group>"; };
 		0486A9342B68994B00C2C935 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		0486A9362B689A0100C2C935 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
 		0486A9382B689DFA00C2C935 /* BoardKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardKind.swift; sourceTree = "<group>"; };
@@ -88,7 +97,7 @@
 		0497F9B82B81880F007003E1 /* MainSubMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSubMenu.swift; sourceTree = "<group>"; };
 		0497F9BA2B81B831007003E1 /* jubo0218.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0218.pdf; sourceTree = "<group>"; };
 		0497F9BD2B8563DB007003E1 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
-		0497F9C02B856E5D007003E1 /* IntroImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroImage.swift; sourceTree = "<group>"; };
+		0497F9C02B856E5D007003E1 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		0497F9C22B856EB1007003E1 /* OfferingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferingViewModel.swift; sourceTree = "<group>"; };
 		0497F9C42B85B324007003E1 /* OldAdultsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldAdultsType.swift; sourceTree = "<group>"; };
 		04CAE1522B4A3BA40065A257 /* ECC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,18 +121,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0412187E2B866865003A33E5 /* BoardListDetail */ = {
+		0412187E2B866865003A33E5 /* Board */ = {
 			isa = PBXGroup;
 			children = (
-				0412187F2B866882003A33E5 /* BoardListDetailView.swift */,
-				0479AC4A2B88086100E6DA61 /* BoardListDetailViewModel.swift */,
+				0412187F2B866882003A33E5 /* BoardView.swift */,
+				0479AC4A2B88086100E6DA61 /* BoardViewModel.swift */,
 			);
-			path = BoardListDetail;
+			path = Board;
+			sourceTree = "<group>";
+		};
+		045E869D2B8BED2500239EF9 /* MockResponses */ = {
+			isa = PBXGroup;
+			children = (
+				045E86A02B8BED9200239EF9 /* Board_Kindergarten.json */,
+				045E86A12B8BEF6A00239EF9 /* Board_Kids.json */,
+				045E86A32B8BF18A00239EF9 /* Board_Youth.json */,
+				045E86A42B8BF2C700239EF9 /* Board_YoungAdults.json */,
+				045E86A72B8BF36E00239EF9 /* Board_OldAdults.json */,
+			);
+			path = MockResponses;
+			sourceTree = "<group>";
+		};
+		047824262B8D86CE0037CBF3 /* BoardDetail */ = {
+			isa = PBXGroup;
+			children = (
+				047824272B8D86EA0037CBF3 /* BoardDetailView.swift */,
+			);
+			path = BoardDetail;
 			sourceTree = "<group>";
 		};
 		0486A9032B68925D00C2C935 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				0421AE372B9022C800BBC044 /* FileManager.swift */,
 			);
 			name = Managers;
 			path = ECC/Managers;
@@ -172,8 +202,9 @@
 				0497F9B32B818450007003E1 /* Main */,
 				0486A9192B68925D00C2C935 /* MainTab */,
 				0486A9112B68925D00C2C935 /* Contact */,
-				0486A9132B68925D00C2C935 /* Board */,
-				0412187E2B866865003A33E5 /* BoardListDetail */,
+				0486A9132B68925D00C2C935 /* BoardList */,
+				0412187E2B866865003A33E5 /* Board */,
+				047824262B8D86CE0037CBF3 /* BoardDetail */,
 				0486A9332B68992E00C2C935 /* Information */,
 				0486A9152B68925D00C2C935 /* Prayer */,
 				0486A9172B68925D00C2C935 /* Worship */,
@@ -202,13 +233,13 @@
 			path = Contact;
 			sourceTree = "<group>";
 		};
-		0486A9132B68925D00C2C935 /* Board */ = {
+		0486A9132B68925D00C2C935 /* BoardList */ = {
 			isa = PBXGroup;
 			children = (
-				0486A9142B68925D00C2C935 /* BoardView.swift */,
-				0486A9312B68991600C2C935 /* BoardViewModel.swift */,
+				0486A9142B68925D00C2C935 /* BoardListView.swift */,
+				0486A9312B68991600C2C935 /* BoardListViewModel.swift */,
 			);
-			path = Board;
+			path = BoardList;
 			sourceTree = "<group>";
 		};
 		0486A9152B68925D00C2C935 /* Prayer */ = {
@@ -296,7 +327,7 @@
 		0497F9BF2B856E01007003E1 /* UIConponents */ = {
 			isa = PBXGroup;
 			children = (
-				0497F9C02B856E5D007003E1 /* IntroImage.swift */,
+				0497F9C02B856E5D007003E1 /* Banner.swift */,
 			);
 			path = UIConponents;
 			sourceTree = "<group>";
@@ -320,6 +351,7 @@
 		04CAE1542B4A3BA40065A257 /* ECC */ = {
 			isa = PBXGroup;
 			children = (
+				045E869D2B8BED2500239EF9 /* MockResponses */,
 				0497F9BA2B81B831007003E1 /* jubo0218.pdf */,
 				042080042B82E9D1009B84B6 /* jubo0211.pdf */,
 				042080062B82EACF009B84B6 /* jubo0204.pdf */,
@@ -421,13 +453,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0497F9C12B856E5D007003E1 /* IntroImage.swift in Sources */,
+				0497F9C12B856E5D007003E1 /* Banner.swift in Sources */,
 				0486A92E2B68925D00C2C935 /* BulletinView.swift in Sources */,
 				0486A92A2B68925D00C2C935 /* PrayerView.swift in Sources */,
 				0486A9282B68925D00C2C935 /* ContactView.swift in Sources */,
 				04D3CBE22B82C10600BD3D4F /* Bulletin.swift in Sources */,
 				0486A92F2B68925D00C2C935 /* ECCApp.swift in Sources */,
-				041218802B866882003A33E5 /* BoardListDetailView.swift in Sources */,
+				041218802B866882003A33E5 /* BoardView.swift in Sources */,
 				0497F9C32B856EB1007003E1 /* OfferingViewModel.swift in Sources */,
 				0486A9392B689DFA00C2C935 /* BoardKind.swift in Sources */,
 				0486A9242B68925D00C2C935 /* CGFloat.swift in Sources */,
@@ -436,6 +468,7 @@
 				04CAE1582B4A3BA40065A257 /* ContentView.swift in Sources */,
 				0486A9252B68925D00C2C935 /* Font.swift in Sources */,
 				0497F9C52B85B324007003E1 /* OldAdultsType.swift in Sources */,
+				0421AE382B9022C800BBC044 /* FileManager.swift in Sources */,
 				0486A9262B68925D00C2C935 /* SplashViewModel.swift in Sources */,
 				0486A92C2B68925D00C2C935 /* MainTabView.swift in Sources */,
 				0486A92D2B68925D00C2C935 /* OfferingView.swift in Sources */,
@@ -444,16 +477,17 @@
 				048261112B75D8FD000E3441 /* BoardType.swift in Sources */,
 				0479AC4D2B8808EC00E6DA61 /* BoardDetail.swift in Sources */,
 				0486A9372B689A0100C2C935 /* Information.swift in Sources */,
-				0486A9292B68925D00C2C935 /* BoardView.swift in Sources */,
+				0486A9292B68925D00C2C935 /* BoardListView.swift in Sources */,
 				04CAE1562B4A3BA40065A257 /* ECCApp.swift in Sources */,
-				0486A9322B68991600C2C935 /* BoardViewModel.swift in Sources */,
+				0486A9322B68991600C2C935 /* BoardListViewModel.swift in Sources */,
 				0486A9352B68994B00C2C935 /* InformationView.swift in Sources */,
 				0497F9B92B81880F007003E1 /* MainSubMenu.swift in Sources */,
 				0486A9212B68925D00C2C935 /* ContentView.swift in Sources */,
+				047824282B8D86EA0037CBF3 /* BoardDetailView.swift in Sources */,
 				0497F9B72B81864D007003E1 /* MainViewModel.swift in Sources */,
 				0497F9BE2B8563DB007003E1 /* ContactViewModel.swift in Sources */,
 				04D3CBDE2B82B62A00BD3D4F /* PDFKitView.swift in Sources */,
-				0479AC4B2B88086100E6DA61 /* BoardListDetailViewModel.swift in Sources */,
+				0479AC4B2B88086100E6DA61 /* BoardViewModel.swift in Sources */,
 				0486A92B2B68925D00C2C935 /* WorshipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

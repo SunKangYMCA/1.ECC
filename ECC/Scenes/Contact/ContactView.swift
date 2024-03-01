@@ -19,7 +19,7 @@ struct ContactView: View {
             
             HStack {
                 
-                moveGoogleMapsButton
+                googleMapsButton
                 
                 addressCopyButton
                 
@@ -57,8 +57,10 @@ struct ContactView: View {
             )
     }
     
-    private var moveGoogleMapsButton: some View {
-        Link(destination: URL(string: viewModel.churchGoogleMapsURL)!) {
+    private var googleMapsButton: some View {
+        Button {
+            viewModel.moveGoogleMaps()
+        } label: {
             Text("구글맵으로 이동")
                 .foregroundColor(.white)
                 .font(.eccFont(type: .normalBold))
@@ -88,18 +90,23 @@ struct ContactView: View {
     }
     
     private var churchPhoneNumberView: some View {
-        Link(destination: URL(string: viewModel.churchPhoneNumber)!) {
+        Button {
+            viewModel.openPhoneAPP()
+        } label: {
             HStack {
                 Image(systemName: "phone")
                 
                 Text(viewModel.churchPhoneNumber)
                     .font(.eccFont(type: .smallBold))
             }
+            
         }
     }
     
     private var churchEmailaView: some View {
-        Link(destination: URL(string: viewModel.churchEmailaddress)!) {
+        Button {
+            viewModel.openEmailAPP()
+        } label: {
             HStack {
                 Image(systemName: "email")
                 

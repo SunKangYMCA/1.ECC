@@ -1,5 +1,5 @@
 //
-//  IntroImage.swift
+//  Banner.swift
 //  ECC
 //
 //  Created by 강성찬 on 2024-02-20.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct IntroImage: View {
+struct Banner: View {
     var body: some View {
         Image("intro")
             .resizable()
@@ -16,5 +16,5 @@ struct IntroImage: View {
 }
 
 #Preview {
-    IntroImage()
+    Banner()
 }

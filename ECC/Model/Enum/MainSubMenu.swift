@@ -38,7 +38,7 @@ enum MainSubMenu: CaseIterable {
         case .worship:
             return AnyView(WorshipView())
         case .board:
-            return AnyView(BoardView())
+            return AnyView(BoardListView())
         case .contact:
             return AnyView(ContactView())
         case .information:
