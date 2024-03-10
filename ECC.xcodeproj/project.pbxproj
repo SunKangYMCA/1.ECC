@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		041218802B866882003A33E5 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412187F2B866882003A33E5 /* BoardView.swift */; };
+		041CB6492B9D4A7A00BCA97F /* WorshipAudioClip.mov in Resources */ = {isa = PBXBuildFile; fileRef = 041CB6472B9D4A7A00BCA97F /* WorshipAudioClip.mov */; };
+		041CB64A2B9D4A7A00BCA97F /* WorshipVideoClip.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 041CB6482B9D4A7A00BCA97F /* WorshipVideoClip.mp4 */; };
+		041CB64C2B9D4C1B00BCA97F /* WorshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CB64B2B9D4C1B00BCA97F /* WorshipViewModel.swift */; };
+		041CB64E2B9D4C9F00BCA97F /* WorshipAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CB64D2B9D4C9F00BCA97F /* WorshipAudio.swift */; };
+		041CB6502B9D4CB500BCA97F /* WorshipVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CB64F2B9D4CB500BCA97F /* WorshipVideo.swift */; };
 		042080052B82E9D1009B84B6 /* jubo0211.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 042080042B82E9D1009B84B6 /* jubo0211.pdf */; };
 		042080072B82EACF009B84B6 /* jubo0204.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 042080062B82EACF009B84B6 /* jubo0204.pdf */; };
 		042080092B82EAE8009B84B6 /* jubo0128.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 042080082B82EAE8009B84B6 /* jubo0128.pdf */; };
@@ -57,6 +62,11 @@
 
 /* Begin PBXFileReference section */
 		0412187F2B866882003A33E5 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		041CB6472B9D4A7A00BCA97F /* WorshipAudioClip.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = WorshipAudioClip.mov; sourceTree = "<group>"; };
+		041CB6482B9D4A7A00BCA97F /* WorshipVideoClip.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = WorshipVideoClip.mp4; sourceTree = "<group>"; };
+		041CB64B2B9D4C1B00BCA97F /* WorshipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorshipViewModel.swift; sourceTree = "<group>"; };
+		041CB64D2B9D4C9F00BCA97F /* WorshipAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorshipAudio.swift; sourceTree = "<group>"; };
+		041CB64F2B9D4CB500BCA97F /* WorshipVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorshipVideo.swift; sourceTree = "<group>"; };
 		042080042B82E9D1009B84B6 /* jubo0211.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0211.pdf; sourceTree = "<group>"; };
 		042080062B82EACF009B84B6 /* jubo0204.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0204.pdf; sourceTree = "<group>"; };
 		042080082B82EAE8009B84B6 /* jubo0128.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = jubo0128.pdf; sourceTree = "<group>"; };
@@ -254,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				0486A9182B68925D00C2C935 /* WorshipView.swift */,
+				041CB64B2B9D4C1B00BCA97F /* WorshipViewModel.swift */,
 			);
 			path = Worship;
 			sourceTree = "<group>";
@@ -300,6 +311,8 @@
 				0486A9362B689A0100C2C935 /* Information.swift */,
 				0479AC4C2B8808EC00E6DA61 /* BoardDetail.swift */,
 				04D3CBE12B82C10600BD3D4F /* Bulletin.swift */,
+				041CB64D2B9D4C9F00BCA97F /* WorshipAudio.swift */,
+				041CB64F2B9D4CB500BCA97F /* WorshipVideo.swift */,
 			);
 			path = CustomObject;
 			sourceTree = "<group>";
@@ -352,6 +365,8 @@
 			isa = PBXGroup;
 			children = (
 				045E869D2B8BED2500239EF9 /* MockResponses */,
+				041CB6472B9D4A7A00BCA97F /* WorshipAudioClip.mov */,
+				041CB6482B9D4A7A00BCA97F /* WorshipVideoClip.mp4 */,
 				0497F9BA2B81B831007003E1 /* jubo0218.pdf */,
 				042080042B82E9D1009B84B6 /* jubo0211.pdf */,
 				042080062B82EACF009B84B6 /* jubo0204.pdf */,
@@ -435,11 +450,13 @@
 			files = (
 				042080092B82EAE8009B84B6 /* jubo0128.pdf in Resources */,
 				0497F9BB2B81B831007003E1 /* jubo0218.pdf in Resources */,
+				041CB64A2B9D4A7A00BCA97F /* WorshipVideoClip.mp4 in Resources */,
 				042080072B82EACF009B84B6 /* jubo0204.pdf in Resources */,
 				04CAE15D2B4A3BA40065A257 /* Preview Assets.xcassets in Resources */,
 				0420800F2B82EB37009B84B6 /* jubo0107.pdf in Resources */,
 				0486A9302B68925D00C2C935 /* Assets.xcassets in Resources */,
 				0420800B2B82EB0B009B84B6 /* jubo0121.pdf in Resources */,
+				041CB6492B9D4A7A00BCA97F /* WorshipAudioClip.mov in Resources */,
 				0420800D2B82EB20009B84B6 /* jubo0114.pdf in Resources */,
 				042080052B82E9D1009B84B6 /* jubo0211.pdf in Resources */,
 				04CAE15A2B4A3BA40065A257 /* Assets.xcassets in Resources */,
@@ -466,8 +483,10 @@
 				0486A9272B68925D00C2C935 /* SplashView.swift in Sources */,
 				0497F9B52B818470007003E1 /* MainView.swift in Sources */,
 				04CAE1582B4A3BA40065A257 /* ContentView.swift in Sources */,
+				041CB64E2B9D4C9F00BCA97F /* WorshipAudio.swift in Sources */,
 				0486A9252B68925D00C2C935 /* Font.swift in Sources */,
 				0497F9C52B85B324007003E1 /* OldAdultsType.swift in Sources */,
+				041CB64C2B9D4C1B00BCA97F /* WorshipViewModel.swift in Sources */,
 				0421AE382B9022C800BBC044 /* FileManager.swift in Sources */,
 				0486A9262B68925D00C2C935 /* SplashViewModel.swift in Sources */,
 				0486A92C2B68925D00C2C935 /* MainTabView.swift in Sources */,
@@ -478,6 +497,7 @@
 				0479AC4D2B8808EC00E6DA61 /* BoardDetail.swift in Sources */,
 				0486A9372B689A0100C2C935 /* Information.swift in Sources */,
 				0486A9292B68925D00C2C935 /* BoardListView.swift in Sources */,
+				041CB6502B9D4CB500BCA97F /* WorshipVideo.swift in Sources */,
 				04CAE1562B4A3BA40065A257 /* ECCApp.swift in Sources */,
 				0486A9322B68991600C2C935 /* BoardListViewModel.swift in Sources */,
 				0486A9352B68994B00C2C935 /* InformationView.swift in Sources */,
