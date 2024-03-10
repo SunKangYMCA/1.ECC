@@ -10,18 +10,18 @@ import SwiftUI
 struct BoardDetailView: View {
     
     private var dateFormat: String {
-        let dateStr = "02152024"
+        let dateString = "02152024"
                 
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "MMddyyyy"
                 
-        let convertDate = dateFormatter.date(from: dateStr)
+        let convertDate = dateFormatter.date(from: dateString)
                 
         let myDateFormatter = DateFormatter()
         myDateFormatter.dateFormat = "yyyy년 MM월 dd일"
         myDateFormatter.locale = Locale(identifier:"ko_KR")
-        let convertStr = myDateFormatter.string(from: convertDate!)
-        return convertStr
+        let convertString = myDateFormatter.string(from: convertDate!)
+        return convertString
     }
     
     var content: BoardDetail
