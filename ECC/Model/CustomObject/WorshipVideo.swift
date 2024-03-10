@@ -11,6 +11,6 @@ struct WorshipVideo: Identifiable {
     var id: UUID = UUID()
     var date: String
     var title: String
-    var name: String
+    var userName: String
     var url: String
 }
