@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct BoardDetail: Hashable {
+struct BoardDetail: Hashable, Decodable, Identifiable {
+    var id: UUID = UUID()
     var date: String
     var title: String
     var detail: String

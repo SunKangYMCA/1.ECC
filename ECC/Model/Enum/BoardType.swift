@@ -40,4 +40,19 @@ enum BoardType: CaseIterable {
             return AnyView(BoardView(viewModel: BoardViewModel(type: .oldAdults)))
         }
     }
+    
+    var detailFile: String {
+        switch self {
+        case .kindergarten:
+            return "Board_Kindergarten"
+        case .kids:
+            return "Board_Kids"
+        case .youth:
+            return "Board_Youth"
+        case .youngAdults:
+            return "Board_YoungAdults"
+        case .oldAdults:
+            return "Board_OldAdults"
+        }
+    }
 }
