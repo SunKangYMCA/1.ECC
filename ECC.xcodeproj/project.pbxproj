@@ -43,6 +43,11 @@
 		0486A9352B68994B00C2C935 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9342B68994B00C2C935 /* InformationView.swift */; };
 		0486A9372B689A0100C2C935 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9362B689A0100C2C935 /* Information.swift */; };
 		0486A9392B689DFA00C2C935 /* BoardKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486A9382B689DFA00C2C935 /* BoardKind.swift */; };
+		04974DE72B9D61E400C36594 /* Board_OldAdults.json in Resources */ = {isa = PBXBuildFile; fileRef = 045E86A72B8BF36E00239EF9 /* Board_OldAdults.json */; };
+		04974DE82B9D61E700C36594 /* Board_YoungAdults.json in Resources */ = {isa = PBXBuildFile; fileRef = 045E86A42B8BF2C700239EF9 /* Board_YoungAdults.json */; };
+		04974DE92B9D61FA00C36594 /* Board_Youth.json in Resources */ = {isa = PBXBuildFile; fileRef = 045E86A32B8BF18A00239EF9 /* Board_Youth.json */; };
+		04974DEA2B9D61FD00C36594 /* Board_Kids.json in Resources */ = {isa = PBXBuildFile; fileRef = 045E86A12B8BEF6A00239EF9 /* Board_Kids.json */; };
+		04974DEB2B9D61FF00C36594 /* Board_Kindergarten.json in Resources */ = {isa = PBXBuildFile; fileRef = 045E86A02B8BED9200239EF9 /* Board_Kindergarten.json */; };
 		0497F9B52B818470007003E1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9B42B818470007003E1 /* MainView.swift */; };
 		0497F9B72B81864D007003E1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9B62B81864D007003E1 /* MainViewModel.swift */; };
 		0497F9B92B81880F007003E1 /* MainSubMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497F9B82B81880F007003E1 /* MainSubMenu.swift */; };
@@ -449,12 +454,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				042080092B82EAE8009B84B6 /* jubo0128.pdf in Resources */,
+				04974DEB2B9D61FF00C36594 /* Board_Kindergarten.json in Resources */,
 				0497F9BB2B81B831007003E1 /* jubo0218.pdf in Resources */,
 				041CB64A2B9D4A7A00BCA97F /* WorshipVideoClip.mp4 in Resources */,
+				04974DE92B9D61FA00C36594 /* Board_Youth.json in Resources */,
 				042080072B82EACF009B84B6 /* jubo0204.pdf in Resources */,
 				04CAE15D2B4A3BA40065A257 /* Preview Assets.xcassets in Resources */,
 				0420800F2B82EB37009B84B6 /* jubo0107.pdf in Resources */,
 				0486A9302B68925D00C2C935 /* Assets.xcassets in Resources */,
+				04974DE72B9D61E400C36594 /* Board_OldAdults.json in Resources */,
+				04974DEA2B9D61FD00C36594 /* Board_Kids.json in Resources */,
+				04974DE82B9D61E700C36594 /* Board_YoungAdults.json in Resources */,
 				0420800B2B82EB0B009B84B6 /* jubo0121.pdf in Resources */,
 				041CB6492B9D4A7A00BCA97F /* WorshipAudioClip.mov in Resources */,
 				0420800D2B82EB20009B84B6 /* jubo0114.pdf in Resources */,
