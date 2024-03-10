@@ -71,32 +71,57 @@ struct WorshipView: View {
         }
     }
     
-    private var videoListView: some View {
+    private var audioListView: some View {
         List {
             VStack {
-                Text("설교 영상 목록")
-                    .padding()
+                HStack {
+                    Spacer()
+                    Text("설교 음성 목록")
+                        .foregroundColor(.brown)
+                        .padding()
+                        .background(
+                            Color.red
+                                .opacity(0.2)
+                                .cornerRadius(.cornerRadius)
+                        )
+                    Spacer()
+                }
             }
-            ForEach(viewModel.worshipVideos, id: \.id) { item in
+            ForEach(viewModel.worshipAudios, id: \.id) { item in
                 HStack {
                     Text(item.date)
+                    Text(item.userName)
+                    Spacer()
                     Text(item.title)
-                    Text(item.name)
+                        .multilineTextAlignment(.center)
                 }
             }
         }
     }
     
-    private var audioListView: some View {
+    private var videoListView: some View {
         List {
             VStack {
-                Text("설교 음성 목록")
+                HStack {
+                    Spacer()
+                    Text("설교 영상 목록")
+                        .foregroundColor(.brown)
+                        .padding()
+                        .background(
+                            Color.green
+                                .opacity(0.2)
+                                .cornerRadius(.cornerRadius)
+                        )
+                    Spacer()
+                }
             }
-            ForEach(viewModel.worshipAudios, id: \.id) { item in
+            ForEach(viewModel.worshipVideos, id: \.id) { item in
                 HStack {
                     Text(item.date)
+                    Text(item.userName)
+                    Spacer()
                     Text(item.title)
-                    Text(item.name)
+                        .multilineTextAlignment(.center)
                 }
             }
         }
